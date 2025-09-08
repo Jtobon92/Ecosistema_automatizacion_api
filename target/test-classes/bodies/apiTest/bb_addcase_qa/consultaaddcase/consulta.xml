@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<IBRequest>
+    <ExternalOperationName>BB_CONSULTACASOSREQ</ExternalOperationName>
+    <MessageType>SYNC</MessageType>
+    <From>
+        <RequestingNode>BB_PTDO</RequestingNode>
+    </From>
+    <To/>
+    <ContentSections>
+        <ContentSection>
+            <Data><![CDATA[<?xml version="1.0"?>
+<CLIENTE class="R">
+<BB_CAJERO>usuario de PTDO</BB_CAJERO>
+<BB_TIPO_DOC>C</BB_TIPO_DOC>
+<AA_NIT>33966024</AA_NIT>
+</CLIENTE>]]></Data>
+        </ContentSection>
+    </ContentSections>
+</IBRequest>

@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"6365036f-3618-4b16-974d-d829159716c0","feature":"consumo de los servicios crm siebel servicio BB_CLPNGETCPSREQ","scenario":"consultar que el cliente no esta creado en crm siebel","start":1757105904998,"group":1,"content":"","tags":"@consultasiebel,","end":1757105905393,"className":"passed"},{"id":"5a26d4b0-4e05-43cc-b1aa-e3ae7d8ccc8a","feature":"consumo de los servicios crm siebel servicio BB_CLPNGETCPSREQ","scenario":"conultar la existencia de un cliente en crm siebel","start":1757105900952,"group":1,"content":"","tags":"@consultasiebel,","end":1757105904960,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
+});

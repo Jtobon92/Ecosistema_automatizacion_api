@@ -1,0 +1,44 @@
+<IBRequest>
+    <ExternalOperationName>BB_ADDCASE_REQ</ExternalOperationName>
+    <MessageType>SYNC</MessageType>
+    <From>
+        <RequestingNode>BB_ADPE</RequestingNode>
+    </From>
+    <To></To>
+    <ContentSections>
+        <ContentSection>
+            <Data>
+                <![CDATA[
+<?xml version="1.0"?>
+<documentData>
+<TRANSACCION>
+<SOURCE>Y</SOURCE>
+<FORCED>Y</FORCED>
+<LV_AREA_RADICATOR>Sección Digital</LV_AREA_RADICATOR>
+<LV_GROUP_LEVEL>Radicación Sección Digital</LV_GROUP_LEVEL>
+<LV0_TIPO_DOC>C</LV0_TIPO_DOC>
+<LV0_ID>2317627637545454553774883675442</LV0_ID>
+<LV1_PRODUCT_ID>092ML</LV1_PRODUCT_ID>
+<LV1_FIN_ACCOUNT_ID>00259936065</LV1_FIN_ACCOUNT_ID>
+<LV2_MOTIVE>XREVC</LV2_MOTIVE>
+<LV3_TYPE>Ventas de Cartera</LV3_TYPE>
+<LV4_SUMMARY>4CR-LEASIGN-ACLARACIÓN CONDICIONES, IMPUESTOS, E INF SALDO AL DÍA Y SOPORTES DE PAGO</LV4_SUMMARY>
+<DESCRIPTION>Documentación</DESCRIPTION>
+<MANDATORY>
+<FIELD>
+<NAME>BB_DD_AA</NAME>
+<VALUE>1</VALUE>
+</FIELD>
+</MANDATORY>
+<NOTE>
+<MANDATORY_NOTE>Y</MANDATORY_NOTE>
+<NOTE_TYPE>1014</NOTE_TYPE>
+<DESCRIPTION>Útil para tus comentarios en Twitter/𝕏, así como para muchas otras aplicaciones, esta es una calculadora gratuita en línea que cuenta el número de caracteres o letras de un texto. Periodistas que escriben un artículo, estudiantes que trabajan en su tarea, escritores independientes, investigadores, solicitantes de empleo que preparan su currículum: por favor, siéntete libre de utilizar esta herramienta para contar el número de letras o caracteres en tus documentos. También será útil en mercadotecnia, publicidad, diseño web, creación de folletos, escritura de tesis, etc.Para comenzar, simplemente escribe o pega el texto en el área de texto indicada. Cuando hayas terminado, haz clic en Contar caracteres (contar letras) bajo el área de texto, y observa los resultados que aparecen inmediatamente. También puedes limpiar tu texto en el momento que desees con sólo hacer clic en RestaurarÚtil para tus comentarios en Twitter/𝕏, así como para muchas otras aplicaciones, esta es una calculadora gratuita en línea que cuenta el número de caracteres o letras de un texto. Periodistas que escriben un artículo, estudiantes que trabajan en su tarea, escritores independientes, investigadores, solicitantes de empleo que preparan su currículum: por favor, siéntete libre de utilizar esta herramienta para contar el número de letras o caracteres en tus documentos. También será útil en mercadotecnia, publicidad, diseño web, creación de folletos, escritura de tesis, etc.Para comenzar, simplemente escribe o pega el texto en el área de texto indicada. Cuando hayas terminado, haz clic en Contar caracteres (contar letras) bajo el área de texto, y observa los resultados que aparecen inmediatamente. También puedes limpiar tu texto en el momento que desees con sólo hacer clic en RestaurarÚtil para tus comentarios en Twitter/𝕏, así como para muchas otras aplicaciones, esta es una calculadora gratuita en línea que cuenta el número de caracteres o letras de un texto. Periodistas que escriben un artículo, estudiantes que trabajan en su tarea, escritores independientes, investigadores, solicitantes de empleo que preparan su currículum: por favor, siéntete libre de utilizar esta herramienta para contar el número de letras o caracteres en tus documentos. También será útil en mercadotecnia, publicidad, diseño web, creación de folletos, escritura de tesis, etc.Para comenzar, simplemente escribe o pega el texto en el área de texto indicada. Cuando hayas terminado, haz clic en Contar caracteres (contar letras) bajo el área de texto, y observa los resultados que aparecen inmediatamente. También puedes limpiar tu texto en el momento que desees con sólo hacer clic en Restaurar</DESCRIPTION>
+</NOTE>
+</TRANSACCION>
+</documentData>
+]]>
+            </Data>
+        </ContentSection>
+    </ContentSections>
+</IBRequest>

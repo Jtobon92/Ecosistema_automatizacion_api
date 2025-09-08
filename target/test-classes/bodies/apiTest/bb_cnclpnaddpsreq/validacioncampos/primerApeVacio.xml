@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IBRequest>
+    <ExternalOperationName>BB_CNCLPNADDPSREQ</ExternalOperationName>
+    <MessageType>SYNC</MessageType>
+    <From>
+        <RequestingNode>BB_SGG</RequestingNode>
+    </From>
+    <To />
+    <ContentSections>
+        <ContentSection>
+            <Data>
+                <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+                <documentData>
+                    <A0 class="R">
+                        <BB_COD_FUENTE>17</BB_COD_FUENTE>
+                                                                                                                              <BB_CAJERO>usr_sgg</BB_CAJERO>
+                        <AA_NIT>201358958101</AA_NIT>
+                        <BB_TIPO_DOC_PN>C</BB_TIPO_DOC_PN>
+                        <LAST_NAME></LAST_NAME>
+                        <SECOND_LAST_NAME>APELLIDOPRUEBAD</SECOND_LAST_NAME>
+                        <FIRST_NAME>NOMBREPRUEBAC</FIRST_NAME>
+                        <MIDDLE_NAME>NOMBREPRUEBAD</MIDDLE_NAME>
+                        <SEX>M</SEX>
+                        <BIRTHDATE>1998-06-05</BIRTHDATE>
+                        <BB_NACIONALIDAD>COL</BB_NACIONALIDAD>
+                        <AA_COD_OCUPACION>2</AA_COD_OCUPACION>
+                        <AA_COD_CIIU>0123</AA_COD_CIIU>
+                        <AA_VLR_ING_BRU_MES>0</AA_VLR_ING_BRU_MES>
+                        <AA_VLR_EGRESO_MES>0</AA_VLR_EGRESO_MES>
+                        <AA_VLR_ACTIVOS>0</AA_VLR_ACTIVOS>
+                        <AA_VLR_PASIVOS>0</AA_VLR_PASIVOS>
+                        <DUE_DT>2025-05-06</DUE_DT>
+                        <BB_PAIS>COL</BB_PAIS>
+                        <STATE2>91</STATE2>
+                        <AA_CIUDAD2>001000</AA_CIUDAD2>
+                        <AA_NIT2></AA_NIT2>
+                        <BB_TIPO_DOC_PN2></BB_TIPO_DOC_PN2>
+                        <LAST_NAME2></LAST_NAME2>
+                        <SECOND_LAST_NAME2></SECOND_LAST_NAME2>
+                        <FIRST_NAME2></FIRST_NAME2>
+                        <MIDDLE_NAME2></MIDDLE_NAME2>
+                        <PHONE3></PHONE3>
+                        <CITY3></CITY3>
+                        <BB_PURPOSE_TEL3></BB_PURPOSE_TEL3>
+                        <SEX2></SEX2>
+                        <BIRTHDATE2></BIRTHDATE2>
+                        <A1 class="R">
+                            <ADDRESS1>;;;;;;;;;Comite Dptal 91 Comite Municipal 001;COL;91;91001000;;</ADDRESS1>
+                            <BB_PURPOSE_DIR1>34</BB_PURPOSE_DIR1>
+                            <PHONE>3050927244</PHONE>
+                            <CITY>91001000</CITY>
+                            <BB_PURPOSE_TEL1>32</BB_PURPOSE_TEL1>
+                            <PHONE2></PHONE2>
+                            <EXTENSION></EXTENSION>
+                            <CITY2></CITY2>
+                            <BB_PURPOSE_TEL2></BB_PURPOSE_TEL2>
+                            <PHONE5>3050927244</PHONE5>
+                            <BB_PURPOSE_TEL5>12</BB_PURPOSE_TEL5>
+                        </A1>
+                    </A0>
+                </documentData>]]>
+            </Data>
+        </ContentSection>
+    </ContentSections>
+</IBRequest>

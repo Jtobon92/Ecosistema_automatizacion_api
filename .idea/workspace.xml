@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="31BkCpgZIKHuF5DFX7LGPfOny8j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CucumberTestSuite.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Rebasing master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\main\java\co\com\bdb\automation\docs" />
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features" />
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features\" />
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources" />
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features\apiTest\bb_updsecreq" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.bdb.automation.definitions.addcaseqa" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CucumberTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="template-api-rest-assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.bdb.automation.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.bdb.automation.runner" />
+      <option name="MAIN_CLASS_NAME" value="co.com.bdb.automation.runner.CucumberTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberTestSuite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="" />
+      <created>1755004732615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755004732615</updated>
+    </task>
+    <servers />
+  </component>
+</project>

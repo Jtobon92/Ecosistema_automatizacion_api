@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<IBRequest>
+    <MessageName>BB_UPDSECREQ</MessageName>
+    <MessageType>Sync</MessageType>
+    <From>
+        <RequestingNode>BB_CANALES</RequestingNode>
+    </From>
+    <To>
+        <DestinationNode>PSFT_CR</DestinationNode>
+    </To>
+    <ContentSections>
+        <ContentSection>
+            <Data>
+                <![CDATA[
+                <?xml version="1.0"?>
+                    <Registro class="R">
+                        <BB_USUARIO>USER/SIEBEL</BB_USUARIO>
+                        <BB_TIPO_DOC>C</BB_TIPO_DOC>
+                        <AA_NIT>abcd xyz</AA_NIT>
+                        <PHONE>3125325028</PHONE>
+                        <EMAILADDR>jtobon@bancodebogota.com.co</EMAILADDR>
+                        <BB_SEC_SOURCE>MSG</BB_SEC_SOURCE>
+                    </Registro>
+                ]]>
+            </Data>
+        </ContentSection>
+    </ContentSections>
+</IBRequest>
