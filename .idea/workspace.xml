@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="" />
+    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/bb_consultaClinte/validateCamposConsulta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/destination/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/destination/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/report.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +43,18 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jtobon92"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jtobon92/Ecosistema_automatizacion_api.git",
+    "accountId": "0294b111-e0b5-4f6b-8d7c-93f11a50e05f"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -56,17 +78,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing master",
+    "git-widget-placeholder": "Rebasing main",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing" />
       <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\main\java\co\com\bdb\automation\docs" />
       <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features" />
       <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features\" />
       <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources" />
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features\apiTest\bb_updsecreq" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.com.bdb.automation.definitions.addcaseqa" />
