@@ -4,5 +4,5 @@ Feature: validar un usuario addcase y que tiene casos creados
 
   Scenario: verificar que el caso fue creado
     Given que se recibe una peticion "consulta.xml"
-    Then debe mandar status 201
-    And el mensaje de respuesta debe ser "Ok 0"
+    When debe mandar status 201
+    Then el mensaje de respuesta debe ser "Ok 0"

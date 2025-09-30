@@ -44,7 +44,7 @@ public class ConsultaAddCase {
 
     }
 
-    @Then("debe mandar status {int}")
+    @When("debe mandar status {int}")
     public void debeMandarStatus(Integer statusCodeExpected) {
 
         baseTest.response = request.when().post().then().log().all().extract().response();

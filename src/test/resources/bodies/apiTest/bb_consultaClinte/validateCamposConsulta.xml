@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<IBRequest>
+    <ExternalOperationName>BB_CLPNGETCPSREQ</ExternalOperationName>
+    <MessageType>Sync</MessageType>
+    <From>
+        <RequestingNode>BB_BPM_IBM</RequestingNode>
+    </From>
+    <To>
+        <DestinationNode>PSFT_CR</DestinationNode>
+    </To>
+    <ContentSections>
+        <ContentSection>
+            <Data>
+                <![CDATA[<?xml version="1.0"?>
+                <BB_CLPNGETCPSREQ>
+                    <FieldTypes/>
+                    <MsgData>
+                        <Transaction>
+                            <A0 class="R">
+                                <BB_HDR_CD_TX_CICS/>
+                                <BB_HDR_COD_TX_TS></BB_HDR_COD_TX_TS>
+                                <BB_HDR_ID_CAJERO>52188112</BB_HDR_ID_CAJERO>
+                                <BB_HDR_SECUENCIA></BB_HDR_SECUENCIA>
+                                <BB_HDR_BYSTA></BB_HDR_BYSTA>
+                                <BB_SUPERV></BB_SUPERV>
+                                <BB_NUM_TERM></BB_NUM_TERM>
+                                <AA_NIT>${cedula}</AA_NIT>
+                                <BB_TIPO_DOC_PN>${tipo}</BB_TIPO_DOC_PN>
+                            </A0>
+                        </Transaction>
+                    </MsgData>
+                </BB_CLPNGETCPSREQ>]]>
+            </Data>
+        </ContentSection>
+    </ContentSections>
+</IBRequest>
