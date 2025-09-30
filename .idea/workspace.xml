@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="" />
+    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/AddCaseDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/AddCaseDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/ValidateIdFieldDefinitios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/ValidateIdFieldDefinitios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/createclintreq/createClientDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/createclintreq/createClientDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ConsultaClienteSiebel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ConsultaClienteSiebel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/idcliente.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/idcliente.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/consultaClient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/consultaClient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/destination/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/destination/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/AddCaseDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/AddCaseDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ValidateIdFieldDefinitios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ValidateIdFieldDefinitios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/idcliente.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/idcliente.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/chosen.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/chosen.override.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/chosen.override.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.override.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/vis-timeline-graph2d.override.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +65,18 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jtobon92&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jtobon92/Ecosistema_automatizacion_api.git&quot;,
+    &quot;accountId&quot;: &quot;0294b111-e0b5-4f6b-8d7c-93f11a50e05f&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,17 +93,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CucumberTestSuite.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CucumberTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\main\java\co\com\bdb\automation\docs" />

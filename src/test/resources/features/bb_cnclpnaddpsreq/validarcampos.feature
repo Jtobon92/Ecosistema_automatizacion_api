@@ -3,8 +3,7 @@ Feature: verificar el api para creacion persona natural
 
   Scenario Outline: Validar respuesta del servicio cuando el campo <campo> no cumple con los requisitos
     Given que el usuario realiza una solicitud al servicio con el campo en el body "<body>"
-    When se envía el consumo al endpoint correspondiente
-    Then la respuesta posee un código de estado <codigo>
+    When la respuesta posee un código de estado <codigo>
     And el cuerpo de la respuesta debe contener el mensaje "<mensaje>"
 
     Examples:

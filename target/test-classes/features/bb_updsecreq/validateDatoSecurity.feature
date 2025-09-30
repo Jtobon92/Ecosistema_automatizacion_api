@@ -4,9 +4,8 @@ Feature: verificacion de los servicios adcase dato seguro 36_BB_UPDSECREQ
 
   Scenario Outline: verificar obligatoridad de los campo para el servicio BB_UPDSECREQ
     Given que se envia un cuerpo xml para la validacion "<body>"
-    When  se cargue el endpoit correctamente del servicio
-    Then  la respuesta del estado es <codigo>
-    And   el mensaje que comparte el response es "<mensaje>"
+    When  la respuesta del estado es <codigo>
+    Then  el mensaje que comparte el response es "<mensaje>"
 
     Examples:
     |body|codigo|mensaje     |

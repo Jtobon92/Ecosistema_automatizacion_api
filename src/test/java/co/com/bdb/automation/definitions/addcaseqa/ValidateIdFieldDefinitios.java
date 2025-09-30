@@ -44,27 +44,13 @@ public class ValidateIdFieldDefinitios {
                 .basePath(BASE_PATH));
 
     }
-    @When("se envía la solicitud al endpoint correspondiente para consultar cliente")
-    public void seEnvíaLaSolicitudAlEndpointCorrespondienteParaConsultarCliente() {
 
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
+    @When("la respuesta debe tener un código de estado {int} siempre")
+    public void laRespuestaDebeTenerUnCódigoDeEstadoSiempre(Integer statusCodeExpected) {
 
-    }
-    @Then("la respuesta debe tener un código de estado {int} siempre")
-    public void laRespuestaDebeTenerUnCódigoDeEstadoSiempre(Integer id) {
-
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                        .baseUri(BASE_URL)
-                        .basePath( BASE_PATH+id));
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
 
     }
     @Then("el cuerpo de la respuesta debe contener el siguiente mensaje {string}")

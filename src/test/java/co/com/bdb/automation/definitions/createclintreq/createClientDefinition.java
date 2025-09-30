@@ -39,25 +39,12 @@ public class createClientDefinition {
                 .basePath(BASE_PATH));
 
     }
-    @When("se envía el consumo al endpoint correspondiente")
-    public void seEnvíaElConsumoAlEndpointCorrespondiente() {
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
 
-    }
-    @Then("la respuesta posee un código de estado {int}")
-    public void laRespuestaPoseeUnCódigoDeEstado(Integer id) {
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                        .baseUri(BASE_URL)
-                        .basePath(BASE_PATH + id));
+    @When("la respuesta posee un código de estado {int}")
+    public void laRespuestaPoseeUnCódigoDeEstado(Integer statusCodeExpected) {
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
 
     }
     @Then("el cuerpo de la respuesta debe contener el mensaje {string}")

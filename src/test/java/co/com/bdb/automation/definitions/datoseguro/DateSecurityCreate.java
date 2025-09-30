@@ -41,25 +41,12 @@ public class DateSecurityCreate {
 
 
     }
-    @When("se cargue el endpoit correctamente del servicio")
-    public void seCargueElEndpoitCorrectamenteDelServicio() {
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
 
-    }
-    @Then("la respuesta del estado es {int}")
-    public void laRespuestaDelEstadoEs(Integer id) {
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                        .baseUri(BASE_URL)
-                        .basePath(BASE_PATH + id));
+    @When("la respuesta del estado es {int}")
+    public void laRespuestaDelEstadoEs(Integer statusCodeExpected) {
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
     }
     @Then("el mensaje que comparte el response es {string}")
     public void elMensajeQueComparteElResponseEs(String esperado) {

@@ -4,8 +4,7 @@ Feature: Validación del campo LV0_ID en la solicitud
 
   Scenario Outline: Validar respuesta del servicio cuando el campo LV0_ID no cumple con los requisitos
     Given que el usuario realiza una solicitud al servicio con el campo LV0_ID "<body>"
-    When se envía la solicitud al endpoint correspondiente para consultar cliente
-    Then la respuesta debe tener un código de estado <codigo> siempre
+    When la respuesta debe tener un código de estado <codigo> siempre
     And el cuerpo de la respuesta debe contener el siguiente mensaje "<mensaje_error>"
 
     Examples:

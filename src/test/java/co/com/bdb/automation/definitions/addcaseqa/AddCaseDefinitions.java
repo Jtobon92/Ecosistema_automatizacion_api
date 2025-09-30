@@ -8,7 +8,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
-import io.restassured.internal.common.assertion.Assertion;
 import org.junit.jupiter.api.Assertions;
 
 
@@ -41,9 +40,9 @@ public class AddCaseDefinitions {
                 .basePath(BASE_PATH));
 
     }
-    @When("se envía la solicitud al endpoint correspondiente")
-    public void seEnvíaLaSolicitudAlEndpointCorrespondiente()
-    {
+
+    @When("la respuesta debe tener un código de estado {int}")
+    public void laRespuestaDebeTenerUnCódigoDeEstado(Integer statusCode) {
         baseTest.response = request
                 .when()
                 .post()
@@ -51,16 +50,8 @@ public class AddCaseDefinitions {
                 .log().all()
                 .extract()
                 .response();
-
-    }
-    @Then("la respuesta debe tener un código de estado {int}")
-    public void laRespuestaDebeTenerUnCódigoDeEstado(Integer id) {
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                .baseUri(BASE_URL)
-                .basePath(BASE_PATH + id));
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCode);
     }
     @Then("el cuerpo de la respuesta debe contener el mensaje de error {string}")
     public void elCuerpoDeLaRespuestaDebeContenerElMensajeDeError(String esperado) {

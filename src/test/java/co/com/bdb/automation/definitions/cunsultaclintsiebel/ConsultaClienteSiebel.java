@@ -61,27 +61,13 @@ public class ConsultaClienteSiebel {
 
 
     }
-    @When("hago el consumo con el endPoint corespondiente")
-    public void hagoElConsumoConElEndPointCorespondiente() {
 
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
+    @When("debe contestar con estado del codigo {int}")
+    public void debeContestarConEstadoDelCodigo(Integer statusCodeExpected) {
 
-    }
-    @Then("debe contestar con estado del codigo {int}")
-    public void debeContestarConEstadoDelCodigo(Integer id) {
-
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                        .baseUri(BASE_URL)
-                        .basePath(""+id));
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
 
     }
     @Then("arrojar en la etiqueta del response el siguiente mensaje {string}")
@@ -128,27 +114,13 @@ public class ConsultaClienteSiebel {
 
 
     }
-    @When("hago el consumo para el endpoint puntual")
-    public void hagoElConsumoParaElEndpointPuntual() {
 
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
-
-    }
     @When("el cliente no existe en la base de datos dando codigo {int}")
-    public void elClienteNoExisteEnLaBaseDeDatosDandoCodigo(Integer id) {
+    public void elClienteNoExisteEnLaBaseDeDatosDandoCodigo(Integer statusCodeExpected) {
 
-        request = new CustomRequestSpecification(
-                RestAssured
-                        .given()
-                        .log().all()
-                        .baseUri(BASE_URL)
-                        .basePath(""+id));
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
 
     }
     @Then("el mensaje que debe responde debe ser el siguiente")

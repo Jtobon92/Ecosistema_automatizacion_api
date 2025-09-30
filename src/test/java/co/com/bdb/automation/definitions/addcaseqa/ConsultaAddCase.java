@@ -36,51 +36,31 @@ public class ConsultaAddCase {
             // Leer el contenido del archivo como texto
             String rutaCompleta = bodiesPath + xmlPath;
             String contenidoBody = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(rutaCompleta)));
-
             // Crear la especificación con el contenido real
-            request = new CustomRequestSpecification(RestAssured.given().log().all()
-                    .baseUri(BASE_URL)
-                    .header("Content-Type",
-                            "application/xml; charset=UTF-8")
-                    .body(contenidoBody)
-                    .basePath(""));
+            request = new CustomRequestSpecification(RestAssured.given().log().all().baseUri(BASE_URL).header("Content-Type", "application/xml; charset=UTF-8").body(contenidoBody).basePath(""));
         } catch (Exception e) {
             throw new RuntimeException("Error al leer el archivo JSON: " + e.getMessage());
         }
 
     }
-    @When("verifico el caso nuevo")
-    public void verificoElCasoNuevo() {
 
-        baseTest.response = request
-                .when()
-                .post()
-                .then()
-                .log().all()
-                .extract()
-                .response();
-
-    }
     @Then("debe mandar status {int}")
-    public void debeMandarStatus(Integer id) {
+    public void debeMandarStatus(Integer statusCodeExpected) {
 
-        request = new CustomRequestSpecification(RestAssured.given().log().all()
-                .baseUri(BASE_URL)
-                .basePath("" + id));
+        baseTest.response = request.when().post().then().log().all().extract().response();
+        baseTest.response.then().log().all();
+        baseTest.response.then().statusCode(statusCodeExpected);
 
     }
+
     @Then("el mensaje de respuesta debe ser {string}")
     public void elMensajeDeRespuestaDebeSer(String esperado) {
-        String mensajeRecibido = baseTest.response.then()
-                .extract()
-                .xmlPath()
-                .getString("RESPUESTA.MESSAGE_TEXT");
-        Assertions.assertEquals(esperado, mensajeRecibido,
-                "El mensaje recibido no conicide con el esperado"
+        String mensajeRecibido = baseTest.response.then().extract().xmlPath().getString("RESPUESTA.MESSAGE_TEXT");
+        Assertions.assertEquals(esperado, mensajeRecibido, "El mensaje recibido no conicide con el esperado"
 
         );
-        LOGGER.info("Mensaje esperado: "+esperado);
-        LOGGER.info("Mensaje recibido: "+mensajeRecibido);
+        LOGGER.info("Mensaje esperado: " + esperado);
+        LOGGER.info("Mensaje recibido: " + mensajeRecibido);
     }
 
 
