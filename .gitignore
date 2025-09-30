@@ -1,0 +1,24 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Archivos de compilación
+target/
+build/
+*.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos sensibles
+.env
+config.properties
