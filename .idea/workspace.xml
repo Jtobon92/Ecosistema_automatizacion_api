@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="">
-<<<<<<< HEAD
+    <list default="true" id="82eee21c-6d01-497c-b70e-664a5155e10d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/crearcuentacrm/CrearCuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/verificarproductopj/VerificarProductoPj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/crear_cuentas_siebel/crearCuentas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/verificarproductopj/verificarproductopj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/crearcuentacrm/crearCuenta.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/verificarproducto0067Pj/verificarproducto0067pj.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/bb_consultaClinte/validateCamposConsulta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_updsecreq/validateDatoSecurity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_updsecreq/validateDatoSecurity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/destination/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/destination/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_cnclpnaddpsreq/validarcampos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_cnclpnaddpsreq/validarcampos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_updsecreq/validateDatoSecurity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_updsecreq/validateDatoSecurity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bbclpngetcpsreq/Validatepnmulti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/timeline/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/report.js" afterDir="false" />
->>>>>>> 84c4a3611c2648cd38bc5a3311f8b51359926c87
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,35 +45,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Jtobon92&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Jtobon92/Ecosistema_automatizacion_api.git&quot;,
-    &quot;accountId&quot;: &quot;0294b111-e0b5-4f6b-8d7c-93f11a50e05f&quot;
-  }
-}</component>
-=======
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
@@ -73,58 +59,23 @@
     "accountId": "0294b111-e0b5-4f6b-8d7c-93f11a50e05f"
   }
 }]]></component>
->>>>>>> 84c4a3611c2648cd38bc5a3311f8b51359926c87
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="31BkCpgZIKHuF5DFX7LGPfOny8j" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="366v0zXlFjouD8iC4MPnBpKN0eS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CucumberTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CucumberTestSuite.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
->>>>>>> 84c4a3611c2648cd38bc5a3311f8b51359926c87
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing" />
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\main\java\co\com\bdb\automation\docs" />
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features" />
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources\features\" />
-      <recent name="D:\QA_2025\Ecosistema\bbog-dig-cat-api-rest-assured-template-testing\src\test\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="co.com.bdb.automation.definitions.addcaseqa" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CucumberTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="template-api-rest-assured" />
@@ -149,11 +100,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5d37696c-2945-4ad3-b2d3-f2ec6a656f4e" name="Changes" comment="" />
-      <created>1755004732615</created>
+      <changelist id="82eee21c-6d01-497c-b70e-664a5155e10d" name="Changes" comment="" />
+      <created>1764098981213</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755004732615</updated>
+      <updated>1764098981213</updated>
     </task>
     <servers />
   </component>

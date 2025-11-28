@@ -1,4 +1,4 @@
-package co.com.bdb.automation.definitions.cunsultaclintsiebel;
+package co.com.bdb.automation.definitions.crearcuentacrm;
 
 import co.com.bdb.automation.definitions.BaseTest;
 import co.com.bdb.automation.definitions.addcaseqa.ValidateIdFieldDefinitios;
@@ -13,32 +13,32 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ValidateCedulaDefinitios {
+public class CrearCuenta {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ValidateIdFieldDefinitios.class);
     static EnvironmentValuesTask env = new EnvironmentValuesTask();
-    private static final String BASE_URL = env.getenv("BASE_URL_SIEBEL");
+    private static final String BASE_URL = env.getenv("CREAR_CUENTA_SIEBEL");
     private CustomRequestSpecification request;
     private final BaseTest baseTest;
     private String xmlBody;
-    private final String bodiesPath = "src/test/resources/bodies/apiTest/bb_consultaClinte/validateCamposConsulta.xml";
+    private final String bodiesPath = "src/test/resources/bodies/apiTest/crear_cuentas_siebel/crearCuentas.xml";
 
-    public ValidateCedulaDefinitios(BaseTest baseTest) {
+    public CrearCuenta(BaseTest baseTest) {
         this.baseTest = baseTest;
     }
 
-    @Given("el cliente tiene un numeo de cedula {int} con tipo {string}")
-    public void elClienteTieneUnNumeoDeCedulaConTipo(Integer cedula, String tipo) throws IOException {
+    @Given("que tengo tipo de cedula {string} con numero {string}")
+    public void queTengoTipoDeCedulaConNumero(String tipced, String numero) throws IOException {
+
         Path path = Paths.get(bodiesPath);
         xmlBody = Files.readString(path);
 
-        xmlBody = xmlBody.replace("${cedula}", String.valueOf(cedula))
-                         .replace("${tipo}",tipo);
+        xmlBody = xmlBody.replace("${numero}", String.valueOf(numero))
+                         .replace("${tipced}",tipced);
 
         request = new CustomRequestSpecification(RestAssured.given().log().all()
                 .baseUri(BASE_URL)
@@ -47,10 +47,9 @@ public class ValidateCedulaDefinitios {
                 .basePath(""));
 
 
-
     }
-    @When("la respuesta debe tener de respuesta un codigo {int}")
-    public void laRespuestaDebeTenerDeRespuestaUnCodigo(Integer statusCode) {
+    @When("la respuesta de la creacion debe ser {int}")
+    public void laRespuestaDeLaCreacionDebeSer(Integer statusCode) {
         baseTest.response = request
                 .when()
                 .post()
@@ -61,14 +60,15 @@ public class ValidateCedulaDefinitios {
         baseTest.response.then().log().all();
         baseTest.response.then().statusCode(statusCode);
 
+
     }
-    @Then("se debe comparar el texto de la respuesta con {string}")
-    public void seDebeCompararElTextoDeLaRespuestaCon(String esperado) {
+    @Then("y debe traer la descripcion del campo como respuesta {string}")
+    public void yDebeTraerLaDescripcionDelCampoComoRespuesta(String esperado) {
 
         String mensajeRecibido = baseTest.response.then()
                 .extract()
                 .xmlPath()
-                .getString("RESPUESTA.MessageID");
+                .getString("RESPUESTA.StatusDesc");
 
         Assertions.assertEquals(esperado, mensajeRecibido,
                 "El mensaje recibido no conicide con el esperado"

@@ -1,3 +1,4 @@
+
 @validarCamposCed
 Feature: consumo de los servicios crm siebel servicio BB_CLPNGETCPSREQ
 
@@ -8,9 +9,9 @@ Feature: consumo de los servicios crm siebel servicio BB_CLPNGETCPSREQ
 
     Examples:
     |tipo |cedula          |mensaje |
-    |C    |1018453361      |0       |
-    |c    |1018453361      |0       |
-    |N    |800191323       |0       |
-    |     |1018453361      |0       |
+    |C    |1018453361      |3       |
+    |c    |1018453361      |3       |
+    |N    |800191323       |3       |
+    |P    |1018453361      |0       |
     |E    |211189          |0       |
 

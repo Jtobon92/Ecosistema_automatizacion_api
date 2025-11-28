@@ -19,3 +19,6 @@ Feature: verificar el api para creacion persona natural
       | LAST_NAME      | primerApeVacio.xml          | 'Primer apellido' es un campo requerido. Especifique un valor para el campo     | 200    |
       | FIRST_NAME     | primerNomVacio.xml          | 'Primer nombre' es un campo requerido. Especifique un valor para el campo       | 200    |
       | AA_NIT         | createExitoso.xml           | Transaccion exitosa (28000,11)                                                  | 200    |
+
+
+     ### YA USADO ###

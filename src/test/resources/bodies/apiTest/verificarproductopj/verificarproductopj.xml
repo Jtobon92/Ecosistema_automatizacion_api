@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<IBRequest>
+    <ExternalOperationName>BB_GNCLPNPJGETPS</ExternalOperationName>
+    <MessageType>Sync</MessageType>
+    <From>
+        <RequestingNode>BB_CANALES</RequestingNode>
+    </From>
+    <To/>
+<ContentSections>
+    <ContentSection>
+        <Data>
+            <![CDATA[<?xml version="1.0"encoding="UTF-8"?>
+                <TRANSACCION class="R">
+                    <BB_HDR_COD_TX_TS>CRN1</BB_HDR_COD_TX_TS>
+                    <BB_HDR_ID_CAJERO>26584158</BB_HDR_ID_CAJERO>
+                    <BB_HDR_SECUENCIA>${producto}</BB_HDR_SECUENCIA>
+                    <BB_HORA_HS>111448</BB_HORA_HS>
+                    <BB_SUPERV></BB_SUPERV>
+                    <BB_NUM_TERM>BOAD9044149</BB_NUM_TERM>
+                    <AA_TIPO_DOC>${tipo}</AA_TIPO_DOC>
+                    <AA_NIT>${cedula}</AA_NIT>
+                    <INF_GEN1>Y</INF_GEN1>
+                    <INF_GEN2>Y</INF_GEN2>
+                    <INF_FIN>Y</INF_FIN>
+                    <INF_DL>Y</INF_DL>
+                    <INF_DS>Y</INF_DS>
+                </TRANSACCION>
+                ]]></Data>
+    </ContentSection>
+</ContentSections>
+</IBRequest>

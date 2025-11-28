@@ -20,5 +20,6 @@ build/
 *.swp
 
 # Archivos sensibles
-.env
+.idea/workspace.xml
+.gitignore
 config.properties

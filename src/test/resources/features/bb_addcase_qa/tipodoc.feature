@@ -13,3 +13,6 @@ Feature: Validación del campo obligatorio LV0_TIPO_DOC
       | createNoEnviado.xml     |Cliente no existe.                                  |200   |
       | createExitoso.xml       |Exitoso                                             |200   |
       | createInvalido.xml      |Cliente no existe.                                  |200   |
+
+
+    ### YA USADO ###

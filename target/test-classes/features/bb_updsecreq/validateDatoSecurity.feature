@@ -22,3 +22,6 @@ Feature: verificacion de los servicios adcase dato seguro 36_BB_UPDSECREQ
     |longituMayornumCel.xml  |200      |El numero de celular: 31258878735534523535354367377 no es válido, favor validar la longitud del mismo. (0,0) INFO_SEG.DA|
     |correoInvalido.xml      |200      |El correo electrónico: abc no es válido, favor validar la dirección. (0,0) INFO_SEG.DATOS               |
     |correoSinAroa.xml       |200      |El correo electrónico: jtobonbancodebogota.com.co no es válido, favor validar la dirección. (0,0) INFO_SEG.DATOS        |
+
+
+     ### YA USADO ###
