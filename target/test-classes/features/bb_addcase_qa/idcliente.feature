@@ -16,3 +16,6 @@ Feature: Validación del campo LV0_ID en la solicitud
       | longitudCorta.xml         | El campo LV0_ID debe tener al menos 8 caracteres            |200   |
       | longitudLarga.xml         | El número de documento debe tener entre 1 y 17 caracteres   |200   |
       | createExitoso.xml         | Exitoso                                                     |200   |
+
+
+    ##Tercera Entrega

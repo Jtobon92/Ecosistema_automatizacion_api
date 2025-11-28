@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82eee21c-6d01-497c-b70e-664a5155e10d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/crearcuentacrm/CrearCuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/verificarproductopj/VerificarProductoPj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/crear_cuentas_siebel/crearCuentas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bodies/apiTest/verificarproductopj/verificarproductopj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/crearcuentacrm/crearCuenta.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/verificarproducto0067Pj/verificarproducto0067pj.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/addcaseqa/VerificarProductoAddCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_cnclpnaddpsreq/validarcampos.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_updsecreq/validateDatoSecurity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_updsecreq/validateDatoSecurity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/idcliente.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/idcliente.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/validateproducto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bb_addcase_qa/validateproducto.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/destination/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/destination/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/addcaseqa/ConsultaAddCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/bdb/automation/definitions/cunsultaclintsiebel/ValidateCedulaDefinitios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/consultaaddcase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/tipodoc.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_cnclpnaddpsreq/validarcampos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_cnclpnaddpsreq/validarcampos.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_updsecreq/validateDatoSecurity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_updsecreq/validateDatoSecurity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bbclpngetcpsreq/Validatepnmulti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bbclpngetcpsreq/Validatepnmulti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/idcliente.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/idcliente.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/validateproducto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/bb_addcase_qa/validateproducto.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/timeline/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/timeline/report.js" afterDir="false" />
     </list>
@@ -72,6 +56,7 @@
   "keyToString": {
     "JUnit.CucumberTestSuite.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
   }
